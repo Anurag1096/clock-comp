@@ -1,0 +1,19 @@
+.card-wrapper{
+    padding: 0 20px 15px 0px ;
+    width:300px;
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.card-header{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.info-img{
+    margin-top:4px;
+    position:relative;
+    left:100px;
+    cursor:pointer;
+}

@@ -1,0 +1,44 @@
+.main-container{
+    display:flex;
+    padding-top:16px;
+    justify-content:center;
+    align-items:center;
+}
+.clock-wrapper{
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.label-wrapper{
+    display:flex;
+    justify-content:center;
+}
+text{
+    font-size:12px;
+    font-weight:bold;
+}
+.text-night{
+    position:relative;
+    top:20px;
+}
+.text-morn{
+    position:relative;
+    right:10px;
+}
+.text-eve{
+    position:relative;
+    left:20px;
+}
+.button-style{
+    display:flex;
+    justify-content:end;
+}
+button{
+    border:1px solid #f9f9f9;
+    font-size:14px;
+    background-color:#D8D8D8;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:5px;
+    padding:5px 14px;
+}

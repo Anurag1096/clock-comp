@@ -1,0 +1,15 @@
+
+.img-container{
+    position:relative;
+    
+}
+.img-style{
+    position:absolute;
+    top:42px;
+    left:1px;
+}
+.cross{
+    position:absolute;
+    z-index:30;
+    top:10px;
+}
