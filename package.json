@@ -16,7 +16,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-   
    "deploy": "npm run build && gh-pages -d build -r git@github.com:Anurag1096/clock-comp.git",
     "start": "set PORT=3001 && react-scripts start",
     "build": "react-scripts build",
