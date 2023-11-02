@@ -14,10 +14,13 @@ const ClockComp = ({data}) => {
     </div>
     <PieChart width={200} height={190}>
       <Pie
+        
         data={data}
         cx={100}
         cy={100}
-        cornerRadius={100}
+        startAngle={90}
+        endAngle={-360}
+        cornerRadius={10}
         innerRadius={60}
         outerRadius={77}
         isAnimationActive={true}

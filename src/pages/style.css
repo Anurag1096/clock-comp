@@ -33,7 +33,11 @@ text{
     display:flex;
     justify-content:end;
 }
-button{
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
     border:1px solid #f9f9f9;
     font-size:14px;
     background-color:#D8D8D8;
