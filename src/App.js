@@ -6,12 +6,12 @@ function App() {
   return (<>
   
   
-    <BrowserRouter basename="/index.html">
+    {/* <BrowserRouter basename="/index.html">
     <Routes>
       <Route path="/" element={<Home/>}/>
     </Routes>
-  </BrowserRouter>
-  <div>hi</div>
+  </BrowserRouter> */}
+  <div><Home/></div>
   </>
   );
 }
