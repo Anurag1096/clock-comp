@@ -6,12 +6,13 @@ function App() {
   return (<>
   
   
-    {/* <BrowserRouter basename="/index.html">
+    <BrowserRouter basename="/index.html">
     <Routes>
       <Route path="/" element={<Home/>}/>
     </Routes>
-  </BrowserRouter> */}
-  <div><Home/></div>
+  </BrowserRouter>
+  {/* Changed For deployment purpose  */}
+  {/* <div><Home/></div> */}
   </>
   );
 }
