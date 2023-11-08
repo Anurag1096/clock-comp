@@ -39,7 +39,7 @@ const Home = () => {
         } else {
             setData(dataIn[0].april)
         }
-        // setData()
+       
 
     }
     return (
@@ -64,6 +64,7 @@ const Home = () => {
                     </select>
                 </div>
             </CardComp>
+           
         </div>
     )
 }
