@@ -6,7 +6,7 @@ import Home from './pages/Home'
 import DataTable from './components/dataTable';
 function App() {
 
-  <div className=''>
+  <div className='App'>
   <DataTable/>
 </div>
   
